@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# VS Code
+.vscode/
+.history/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data & Model files
+data/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.sav
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test & Coverage
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc
+
+# Docker
+*.pid
+
+# Other
+*.bak
+*.swp
+*.tmp
