@@ -30,31 +30,36 @@ A production-ready, end-to-end MLOps platform for automated lead scoring, CRM in
 ## ⚡️ Quickstart
 
 1. **Install dependencies**
-    ```sh
-    pip install -r requirements.txt
-    ```
+
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 2. **Set up environment variables**
-    - Copy `.env.example` to `.env` and fill in your secrets (HubSpot, Flask, etc).
+
+   - Copy `.env.example` to `.env` and fill in your secrets (HubSpot, Flask, etc).
 
 3. **Fetch CRM Data**
-    ```sh
-    python src/fetch/fetch_labled_leads.py
-    python src/fetch/fetch_unlabled_leads.py
-    ```
+
+   ```sh
+   python src/fetch/fetch_labled_leads.py
+   python src/fetch/fetch_unlabled_leads.py
+   ```
 
 4. **Preprocess & Train**
-    ```sh
-    python src/training/train_baseline.py
-    ```
+
+   ```sh
+   python src/training/train_baseline.py
+   ```
 
 5. **Run the API**
-    ```sh
-    python app/api.py
-    ```
+
+   ```sh
+   python app/api.py
+   ```
 
 6. **Access Dashboard**
-    - Open [http://localhost:5000](http://localhost:5000) for API docs and dashboard endpoints.
+   - Open [http://localhost:5000](http://localhost:5000) for API docs and dashboard endpoints.
 
 ## 🧩 Key Modules
 
